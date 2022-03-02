@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 	for(int a=0; a<2; a++){
 		for(int b=0; b<2; b++){
 			for(int c=0; c<2; c++){
+				//Perkalian Matriks A dengan Matriks B
 				jumlah = jumlah + ArrayA[a][c] * ArrayB[c][b];
 			}
 			hasil[a][b] = jumlah;
