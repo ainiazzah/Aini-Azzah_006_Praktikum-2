@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	cout<<"Hasil Transpose Matriks A\n";
 	for(int a=0; a<2; a++){
 		for(int b=0; b<2; b++){
-			transpose[a][b] = ArrayA[b][a];
+			transpose[a][b] = ArrayA[b][a];  //Transpose Matriks A
 			cout<<transpose[a][b]<<"\t";
 		}
 		cout<<endl;
